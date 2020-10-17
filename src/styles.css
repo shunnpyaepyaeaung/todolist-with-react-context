@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Chilanka&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chewy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Handlee&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delius&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    /* background: #d9e4dd; */
+    /* background: url(https://st4.depositphotos.com/24595320/39536/v/950/depositphotos_395365728-stock-illustration-cute-cat-ring-donut-seamless.jpg) */
+    background: url(https://lh3.googleusercontent.com/proxy/Wgzbsy1Z983DhhPe0Hpox2WSmOXOcGrsm2O1-FsU19kd6Gfd35F9VCZaAwsf5U-o3uL_e7h8z_1-El-FSgXtqvtMPEfKOXW8C7TGI2bE7PzlOwqbjks17T1Gk48uo7bF1c0BazwMqPcm_EyF8mGNriNY);
+}
+
+#container{
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+h1{
+    font-family: 'Chewy', cursive;
+    color: #f96d80;
+}
+
+.card{
+    margin-left: 495px !important;
+    margin-right: 550px !important;
+    width: 295px !important;
+    background-color: #e6739f !important;
+    width: 450px !important;
+}
+
+.text{
+    color: black !important;
+    margin-left: 20px !important;
+    /* font-family: 'Chilanka', cursive !important; */
+    /* font-family: 'Handlee', cursive !important; */
+    font-family: 'Delius', cursive !important;
+    font-size: 16px !important;
+}
+
+.input{
+    margin-bottom: 20px;
+}
+
+.trash{
+    color: white;
+}
+.trash:hover{
+    color: #cc0e74;
+}
+
+.button{
+    background-color: #D69E79 !important;
+    font-family: 'Handlee', cursive !important;
+    color: white !important;
+}
+
+input[type='text']{
+    font-family: 'Delius', cursive !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .card {
+      /* background-color: lightblue !important; */
+      margin-left: 30px !important;
+      width: 350px !important;
+    }
+  }
+
+@media only screen and (max-device-width : 1024px){
+    .card{
+        margin-left: 160px !important;
+    }
+}
